@@ -81,6 +81,9 @@ router.post('/login', async function(req, res, next)  {
 
             if(resultCompare) {
 
+                const authToken = user.generateToken();
+                res.header("x-auth-token", authToken);
+
                 return res.status(200)
                     .json({
                         "user": user
