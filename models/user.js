@@ -8,7 +8,6 @@ const { eventSchema } = require('./event');
 const userSchema = new Schema({
     name: {
         type: String,
-        required: true,
         unique: true
     },
     email: {

@@ -23,22 +23,6 @@ router.post('/signup', async function(req, res, next)  {
                 "message": message
             });
     }
-    //
-    // let user = await User.findOne({ username });
-    //
-    // if(user) {
-    //
-    //     message = "User with this name already exists!";
-    //
-    //     return res.status(400)
-    //         .render('passport/signup', {
-    //             message,
-    //             username,
-    //             password
-    //         });
-    //
-    // } else {
-
         try {
             const salt = await bcrypt.genSalt(10);
             password = await bcrypt.hash(password, salt);
@@ -47,7 +31,7 @@ router.post('/signup', async function(req, res, next)  {
             const result = await user.save();
 
             if(result) {
-                res.status(201)
+                return res.status(201)
                     .json({
                        "message": "Successfully created user."
                     });
@@ -56,6 +40,67 @@ router.post('/signup', async function(req, res, next)  {
         } catch(ex) {
             next(ex);
     }
+});
+
+/* Login User */
+router.post('/login', async function(req, res, next)  {
+
+    let { name, email, password } = req.body;
+
+    let validateRes = validateUser({
+        name,
+        password,
+        email
+    });
+
+    let errorMessage = null;
+
+    if(validateRes) {
+        errorMessage = validateRes.details[0].message;
+        return res.status(400)
+            .json({
+                "message": errorMessage
+            });
+    }
+
+    let user = await User.findOne({ name });
+
+    if(!user) {
+
+        errorMessage = "There isn't user with such username!";
+
+        return res.status(400)
+            .json({
+                "message": errorMessage
+            });
+
+    } else {
+
+        try {
+            const resultCompare = await bcrypt.compare(password, user.password);
+
+            if(resultCompare) {
+
+                return res.status(200)
+                    .json({
+                        "user": user
+                    });
+
+            } else {
+                errorMessage = "Incorrect password!";
+
+                return res.status(400)
+                    .json({
+                        "message": errorMessage
+                    });
+            }
+
+        } catch(ex) {
+            next(ex);
+        }
+
+    }
+
 });
 
 module.exports = router;
