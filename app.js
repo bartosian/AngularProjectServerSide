@@ -43,8 +43,8 @@ app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
 
 
 
-const index = require('./routes/index');
-app.use('/', index);
+const auth = require('./routes/authRoutes');
+app.use('/auth', auth);
 
 
 module.exports = app;

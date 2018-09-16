@@ -1,6 +1,9 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const Joi = require('joi');
+const { billSchema } = require('./bill');
+const { categorySchema } = require('./category');
+const { eventSchema } = require('./event');
 
 const userSchema = new Schema({
     name: {
