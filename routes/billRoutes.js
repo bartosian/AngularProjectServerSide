@@ -43,7 +43,4 @@ router.put('/bill', authToken, async function(req, res, next) {
     }
 });
 
-
-
-
 module.exports = router;

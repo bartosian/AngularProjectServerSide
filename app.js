@@ -49,5 +49,8 @@ app.use('/auth', auth);
 const bill = require('./routes/billRoutes');
 app.use('/api', bill);
 
+const event = require('./routes/eventRoutes');
+app.use('/api', event);
+
 
 module.exports = app;
