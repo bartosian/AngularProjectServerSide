@@ -4,18 +4,25 @@ const authToken = require('../middleware/auth');
 const { User } = require('../models/user');
 const { Category } = require('../models/category');
 
-/* Get events info */
-router.get('/events', authToken, async function(req, res, next) {
+/* Get categories info */
+router.get('/categories', authToken, async function(req, res, next) {
     const { _id } = req.user;
 
     try {
         const user = await User.findById(_id);
-        let events = user.events;
+        let categories = [...user.categories];
+        categories = categories.map( c => {
+            const { name, capacity } = c;
+            return {
+              name,
+              capacity
+            };
+        });
 
 
         return res.status(200)
             .json({
-                events
+                categories
             });
     } catch(ex) {
         return next(ex);
