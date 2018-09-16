@@ -40,27 +40,29 @@ router.get('/events/:id', authToken, async function(req, res, next) {
 });
 
 
-/* Add new event */
-router.post('/events', authToken, async function(req, res, next) {
+/* Add new category */
+router.post('/categories', authToken, async function(req, res, next) {
     const { _id } = req.user;
-    const { type, amount, category, date, description } = req.body;
+    const { name, capacity } = req.body;
 
     try {
         const user = await User.findById(_id);
-        const newEvent = new Event({
-            type,
-            amount,
-            category,
-            date,
-            description
+        const newCategory = new Category({
+            name,
+            capacity
         });
 
-        user.events.push(newEvent);
+        user.categories.push(newCategory);
         await user.save();
+
+        const category = {
+            name,
+            capacity
+        };
 
         return res.status(201)
             .json({
-                "message": "Event was added successfully!"
+                category
             });
     } catch(ex) {
         return next(ex);
