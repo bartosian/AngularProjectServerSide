@@ -46,5 +46,8 @@ app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
 const auth = require('./routes/authRoutes');
 app.use('/auth', auth);
 
+const bill = require('./routes/billRoutes');
+app.use('/api', bill);
+
 
 module.exports = app;
