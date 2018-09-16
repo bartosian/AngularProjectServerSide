@@ -63,7 +63,7 @@ router.post('/login', async function(req, res, next)  {
             });
     }
 
-    let user = await User.findOne({ name });
+    let user = await User.findOne({ email });
 
     if(!user) {
 
