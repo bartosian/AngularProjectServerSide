@@ -4,6 +4,7 @@ const Joi = require('joi');
 const { billSchema } = require('./bill');
 const { categorySchema } = require('./category');
 const { eventSchema } = require('./event');
+const JWT = require('jsonwebtoken');
 
 const userSchema = new Schema({
     name: {
@@ -30,6 +31,12 @@ const userSchema = new Schema({
     categories: [categorySchema],
     events: [eventSchema]
 });
+
+userSchema.methods.generateToken = function() {
+  const token = JWT.sign({ _id: this._id, name: this.name }, process.env.JWTKEY);
+
+  return token;
+};
 
 const User = mongoose.model("User", userSchema);
 
