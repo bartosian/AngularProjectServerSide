@@ -15,7 +15,6 @@ function authToken(req, res, next) {
         const decObject = JWT.verify(token, process.env.JWTKEY);
 
         req.user = decObject;
-
         next();
     } catch(ex) {
         return res.status(401)

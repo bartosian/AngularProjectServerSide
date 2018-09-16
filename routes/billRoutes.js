@@ -5,11 +5,13 @@ const { User } = require('../models/user');
 
 /* Get bill info */
 router.get('/bill', authToken, async function(req, res, next) {
-    const { id } = req.user;
+    const { _id } = req.user;
 
     try {
-        const user = await User.findById(id);
-        const bill = user.bill;
+        const user = await User.findById(_id);
+        const { value, currency } = user.bill;
+        const bill = { value, currency };
+
 
         return res.status(200)
             .json({
@@ -23,11 +25,11 @@ router.get('/bill', authToken, async function(req, res, next) {
 
 /* Update bill info */
 router.put('/bill', authToken, async function(req, res, next) {
-    const { id } = req.user;
-    const { value } = req.body.bill;
+    const { _id } = req.user;
+    const { value } = req.body;
 
     try {
-        const user = await User.findById(id);
+        const user = await User.findById(_id);
         user.bill.value = +value;
 
         await user.save();
