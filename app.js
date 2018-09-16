@@ -52,5 +52,8 @@ app.use('/api', bill);
 const event = require('./routes/eventRoutes');
 app.use('/api', event);
 
+const category = require('./routes/categoryRoutes');
+app.use('/api', category);
+
 
 module.exports = app;

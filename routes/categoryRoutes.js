@@ -2,8 +2,7 @@ const express = require('express');
 const router  = express.Router();
 const authToken = require('../middleware/auth');
 const { User } = require('../models/user');
-const { Event } = require('../models/event');
-
+const { Category } = require('../models/category');
 
 /* Get events info */
 router.get('/events', authToken, async function(req, res, next) {
@@ -30,7 +29,7 @@ router.get('/events/:id', authToken, async function(req, res, next) {
 
     try {
         const user = await User.findById(userId);
-       const event = await user.events.id(eventId);
+        const event = await user.events.id(eventId);
         return res.status(200)
             .json({
                 event
