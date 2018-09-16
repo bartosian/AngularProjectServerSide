@@ -20,7 +20,13 @@ const userSchema = new Schema({
         required: true,
         minLength: 8
     },
-    bill: billSchema,
+    bill: {
+        type: billSchema,
+        default: {
+            value: 0,
+            currency: "USD"
+        }
+    },
     categories: [categorySchema],
     events: [eventSchema]
 });
