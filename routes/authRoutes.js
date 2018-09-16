@@ -106,4 +106,30 @@ router.post('/login', async function(req, res, next)  {
 
 });
 
+/* Check User email */
+router.post('/valid', async function(req, res, next)  {
+
+    let { email } = req.body;
+    let message = null;
+    let user = await User.findOne({ email });
+
+    if(!user) {
+
+        message = "There isn't user with such username!";
+
+        return res.status(400)
+            .json({
+                "message": message
+            });
+
+    } else {
+                return res.status(200)
+                    .json({
+                        "user": user
+                    });
+        }
+
+});
+
+
 module.exports = router;
