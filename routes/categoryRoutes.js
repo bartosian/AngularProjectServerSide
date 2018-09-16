@@ -11,14 +11,6 @@ router.get('/categories', authToken, async function(req, res, next) {
     try {
         const user = await User.findById(_id);
         let categories = [...user.categories];
-        categories = categories.map( c => {
-            const { name, capacity } = c;
-            return {
-              name,
-              capacity
-            };
-        });
-
 
         return res.status(200)
             .json({
@@ -29,17 +21,41 @@ router.get('/categories', authToken, async function(req, res, next) {
     }
 });
 
-/* Get event info */
-router.get('/events/:id', authToken, async function(req, res, next) {
+/* Get category info */
+router.get('/categories/:id', authToken, async function(req, res, next) {
     const userId = req.user._id;
-    const  eventId = req.params.id;
+    const  categoryId = req.params.id;
 
     try {
         const user = await User.findById(userId);
-        const event = await user.events.id(eventId);
+        const category = await user.categories.id(categoryId);
+
         return res.status(200)
             .json({
-                event
+                category
+            });
+    } catch(ex) {
+        return next(ex);
+    }
+});
+
+/* Update category info */
+router.put('/categories/:id', authToken, async function(req, res, next) {
+    const userId = req.user._id;
+    const  categoryId = req.params.id;
+    const { name, capacity } = req.body;
+
+    try {
+        const user = await User.findById(userId);
+        let category = await user.categories.id(categoryId);
+        category.name = name;
+        category.capacity = capacity;
+
+        await user.save();
+
+        return res.status(203)
+            .json({
+                category
             });
     } catch(ex) {
         return next(ex);
