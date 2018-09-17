@@ -8,8 +8,7 @@ const JWT = require('jsonwebtoken');
 
 const userSchema = new Schema({
     name: {
-        type: String,
-        unique: true
+        type: String
     },
     email: {
         type: String,

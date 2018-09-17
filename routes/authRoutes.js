@@ -45,10 +45,10 @@ router.post('/signup', async function(req, res, next)  {
 /* Login User */
 router.post('/login', async function(req, res, next)  {
 
-    let { name, email, password } = req.body;
+    let { email, password } = req.body;
 
     let validateRes = validateUser({
-        name,
+        name:"Default",
         password,
         email
     });
@@ -82,11 +82,13 @@ router.post('/login', async function(req, res, next)  {
             if(resultCompare) {
 
                 const authToken = user.generateToken();
-                res.header("x-auth-token", authToken);
+                const { name, _id } = user;
 
                 return res.status(200)
                     .json({
-                        "user": user
+                        name,
+                        _id,
+                        authToken
                     });
 
             } else {
@@ -115,17 +117,14 @@ router.post('/valid', async function(req, res, next)  {
 
     if(!user) {
 
-        message = "There isn't user with such username!";
+        message = "You can use this email.";
 
-        return res.status(400)
-            .json({
-                "message": message
-            });
+        return res.status(200);
 
     } else {
                 return res.status(200)
                     .json({
-                        "user": user
+                        user
                     });
         }
 
