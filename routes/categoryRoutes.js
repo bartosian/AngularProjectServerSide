@@ -13,9 +13,9 @@ router.get('/categories', authToken, async function(req, res, next) {
         let categories = [...user.categories];
 
         return res.status(200)
-            .json({
-                categories
-            });
+            .json(
+            categories
+            );
     } catch(ex) {
         return next(ex);
     }
