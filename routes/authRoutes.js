@@ -94,9 +94,9 @@ router.post('/login', async function(req, res, next)  {
             } else {
                 errorMessage = "Incorrect password!";
 
-                return res.status(400)
+                return res.status(200)
                     .json({
-                        "message": errorMessage
+                        errorMessage
                     });
             }
 
