@@ -44,14 +44,14 @@ router.get('/events/:id', authToken, async function(req, res, next) {
 /* Add new event */
 router.post('/events', authToken, async function(req, res, next) {
     const { _id } = req.user;
-    let { type, amount,  date, description } = req.body;
+    let { type, amount, category, date, description } = req.body;
 
     try {
         const user = await User.findById(_id);
         const newEvent = new Event({
             type,
             amount,
-            category : "5b9fc56b8f38f52daa7a0296",
+            category,
             date,
             description
         });
