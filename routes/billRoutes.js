@@ -15,7 +15,7 @@ router.get('/bill', authToken, async function(req, res, next) {
 
         return res.status(200)
             .json({
-                bill
+                ...bill
             });
     } catch(ex) {
         return next(ex);
