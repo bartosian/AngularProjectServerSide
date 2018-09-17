@@ -17,6 +17,8 @@ router.post('/signup', async function(req, res, next)  {
     let message = null;
 
     if(validateRes) {
+
+        console.log('-=-=-=-=-=-I/m here!');
         message = validateRes.details[0].message;
         return res.status(400)
             .json({
@@ -67,9 +69,9 @@ router.post('/login', async function(req, res, next)  {
 
     if(!user) {
 
-        errorMessage = "There isn't user with such username!";
+        errorMessage = "There isn't user with such email!";
 
-        return res.status(400)
+        return res.status(200)
             .json({
                  errorMessage
             });
