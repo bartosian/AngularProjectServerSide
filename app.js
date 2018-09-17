@@ -41,10 +41,14 @@ app.use(require('node-sass-middleware')({
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
 
-
+app.use('/api', function(req, res, next) {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+    next();
+});
 
 const auth = require('./routes/authRoutes');
-app.use('/auth', auth);
+app.use('/api', auth);
 
 const bill = require('./routes/billRoutes');
 app.use('/api', bill);
