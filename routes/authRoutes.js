@@ -59,7 +59,7 @@ router.post('/login', async function(req, res, next)  {
         errorMessage = validateRes.details[0].message;
         return res.status(400)
             .json({
-                "message": errorMessage
+                 errorMessage
             });
     }
 
@@ -71,7 +71,7 @@ router.post('/login', async function(req, res, next)  {
 
         return res.status(400)
             .json({
-                "message": errorMessage
+                 errorMessage
             });
 
     } else {

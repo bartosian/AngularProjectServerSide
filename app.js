@@ -48,7 +48,7 @@ app.use('/api', function(req, res, next) {
 });
 
 const auth = require('./routes/authRoutes');
-app.use('/api', auth);
+app.use('/api/auth', auth);
 
 const bill = require('./routes/billRoutes');
 app.use('/api', bill);
