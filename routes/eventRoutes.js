@@ -15,9 +15,9 @@ router.get('/events', authToken, async function(req, res, next) {
 
 
         return res.status(200)
-            .json({
+            .json(
                 events
-            });
+            );
     } catch(ex) {
         return next(ex);
     }
@@ -44,10 +44,11 @@ router.get('/events/:id', authToken, async function(req, res, next) {
 /* Add new event */
 router.post('/events', authToken, async function(req, res, next) {
     const { _id } = req.user;
-    const { type, amount, category, date, description } = req.body;
+    let { type, amount, category, date, description } = req.body;
 
     try {
         const user = await User.findById(_id);
+        date = new Date();
         const newEvent = new Event({
             type,
             amount,
