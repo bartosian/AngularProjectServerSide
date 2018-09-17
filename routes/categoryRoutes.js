@@ -31,9 +31,9 @@ router.get('/categories/:id', authToken, async function(req, res, next) {
         const category = await user.categories.id(categoryId);
 
         return res.status(200)
-            .json({
+            .json(
                 category
-            });
+            );
     } catch(ex) {
         return next(ex);
     }
@@ -54,9 +54,9 @@ router.put('/categories/:id', authToken, async function(req, res, next) {
         await user.save();
 
         return res.status(203)
-            .json({
+            .json(
                 category
-            });
+            );
     } catch(ex) {
         return next(ex);
     }
@@ -84,9 +84,9 @@ router.post('/categories', authToken, async function(req, res, next) {
         };
 
         return res.status(201)
-            .json({
+            .json(
                 category
-            });
+            );
     } catch(ex) {
         return next(ex);
     }
