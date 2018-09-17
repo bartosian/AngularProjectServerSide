@@ -17,8 +17,6 @@ router.post('/signup', async function(req, res, next)  {
     let message = null;
 
     if(validateRes) {
-
-        console.log('-=-=-=-=-=-I/m here!');
         message = validateRes.details[0].message;
         return res.status(400)
             .json({
@@ -26,6 +24,7 @@ router.post('/signup', async function(req, res, next)  {
             });
     }
         try {
+
             const salt = await bcrypt.genSalt(10);
             password = await bcrypt.hash(password, salt);
 
