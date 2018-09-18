@@ -32,6 +32,7 @@ router.post('/signup', async function(req, res, next)  {
             const result = await user.save();
 
             if(result) {
+
                 return res.status(201)
                     .json({
                        "message": "Successfully created user."
@@ -113,20 +114,16 @@ router.post('/login', async function(req, res, next)  {
 router.post('/valid', async function(req, res, next)  {
 
     let { email } = req.body;
-    let message = null;
     let user = await User.findOne({ email });
 
     if(!user) {
-
-        message = "You can use this email.";
-
-        return res.status(200);
+        return res.status(200).json();
 
     } else {
                 return res.status(200)
-                    .json({
+                    .json(
                         user
-                    });
+                    );
         }
 
 });
