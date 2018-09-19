@@ -23,13 +23,13 @@
       <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.d9ee23d59d0e0e727b51.woff" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.f7c2b4b747b1a225eb8d.eot" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app_public/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/main.4c57bf346af5d1717ee8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/main.44df016f4c09984bfe23.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app_public/build/polyfills.f6ae3e8b63939c618130.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app_public/build/runtime.a7c73e42a5aeb0ece9e6.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app_public/build/scripts.7f8b770a5f080be06e69.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app_public/build/styles.a933221f600c83500c90.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/app/auth/auth.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/auth/auth.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/app/auth/auth.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/auth/auth.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/src/app/auth/registration/registration.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/auth/registration/registration.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/src/app/system/records-page/add-event/add-event.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/system/records-page/add-event/add-event.component.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,29 +43,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="auth.component.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/auth.component.scss">
+      <file leaf-file-name="add-event.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_public/src/app/system/records-page/add-event/add-event.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-            </state>
+            <state relative-caret-position="-334" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/auth.component.html">
+      <file leaf-file-name="add-event.component.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app_public/src/app/system/records-page/add-event/add-event.component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app_public/src/styles.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="69" />
+            <state relative-caret-position="406">
+              <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -103,6 +92,9 @@
         <option value="$PROJECT_DIR$/app_public/src/app/shared/core/base-api.ts" />
         <option value="$PROJECT_DIR$/app_public/src/app/auth/auth.component.html" />
         <option value="$PROJECT_DIR$/app_public/src/app/auth/auth.component.scss" />
+        <option value="$PROJECT_DIR$/app_public/src/app/auth/registration/registration.component.scss" />
+        <option value="$PROJECT_DIR$/app_public/src/app/auth/registration/registration.component.html" />
+        <option value="$PROJECT_DIR$/app_public/src/app/system/records-page/add-event/add-event.component.scss" />
       </list>
     </option>
   </component>
@@ -166,7 +158,26 @@
               <item name="app_public" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularProjectMEAN" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="records-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularProjectMEAN" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="records-page" type="462c0819:PsiDirectoryNode" />
+              <item name="add-event" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -216,12 +227,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537102002945</updated>
       <workItem from="1537102004420" duration="51457000" />
-      <workItem from="1537372863229" duration="10923000" />
+      <workItem from="1537372863229" duration="12785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62380000" />
+    <option name="totallyTimeSpent" value="64242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -478,8 +489,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/auth.component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="345">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/registration/registration.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/registration/registration.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="91" column="26" lean-forward="true" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/records-page/add-category/add-category.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/records-page/add-event/add-event.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/records-page/add-event/add-event.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="46" column="8" lean-forward="true" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
         </state>
       </provider>
     </entry>
