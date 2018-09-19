@@ -1,0 +1,25 @@
+
+
+.refresh-block {
+  transform: translateY(-25px);
+}
+
+.refresh-block .btn {
+  display: inline-block;
+  border-radius: 100%;
+}
+
+.btn:active,
+.btn:focus,
+.btn.hover {
+  outline: none;
+}
+
+.btn:hover {
+  background: white;
+  color: orange;
+  outline: none;
+  border: none;
+}
+
+

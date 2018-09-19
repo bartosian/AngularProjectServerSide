@@ -1,0 +1,32 @@
+<div class="col col-xs-12 col-sm-12 col-md-6 col-xl-7 history-col">
+  <div class="card">
+    <div class="card-block" style="height: 400px">
+      <div class="title-block">
+        <h4 class="title">Rate</h4>
+      </div>
+      <div class="row row-sm stats-container">
+        <table class="table table-hover">
+          <thead>
+          <tr class="table-header">
+            <th>Currency</th>
+            <th>Rate</th>
+            <th>Date</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td class="cur">EUR</td>
+            <td>1</td>
+            <td>{{ currency.date | appMoment:'YYYY-MM-DD' }}</td>
+          </tr>
+          <tr *ngFor="let c of currencies">
+            <td class="cur">{{ c }}</td>
+            <td>{{ currency.rates[c] }}</td>
+            <td>{{ currency.date | appMoment:'YYYY-MM-DD' }}</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

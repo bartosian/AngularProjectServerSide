@@ -1,0 +1,57 @@
+.filter-block {
+  transform: translateY(-25px);
+}
+
+.filter-block .btn {
+  display: inline-block;
+  border-radius: 100%;
+  background: orange;
+  color: white;
+}
+
+.btn:active,
+.btn:focus,
+.btn.hover {
+  outline: none;
+}
+
+.btn:hover {
+  background: white;
+  color: orange;
+  outline: none;
+  border: none;
+}
+
+.warn-head {
+  text-align: center;
+  text-transform: uppercase;
+  color: orange;
+  text-shadow: 0 2px 5px black;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.warn-subhead {
+  text-align: center;
+  text-transform: uppercase;
+  color: orange;
+  text-shadow: 0 2px 5px black;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.warn-subhead span {
+  color: forestgreen;
+}
+
+.warn-wrap {
+  background: #d7dde4;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.img-wrap {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}

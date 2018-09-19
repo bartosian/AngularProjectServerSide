@@ -1,0 +1,82 @@
+
+.n-progress {
+  height: 40px;
+}
+
+.progress-wrap {
+  position: relative;
+}
+
+#progress-name {
+  position: absolute;
+  color: #52bcd3;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  top: -12px;
+  left: 50%;
+  font-weight: bold;
+  text-shadow: 0 0 2px black;
+  transform: translateX(-65px);
+}
+
+.card-header {
+  background: #4f5f6f;
+  height: 50px;
+  text-align: center;
+  padding: 8px 20px;
+  box-shadow: 0 7px 8px #4f5f6f;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-family: 'Black Ops One', cursive;
+  text-shadow: 0 0 1px black;
+}
+
+.header-block h3.title {
+  color: white;
+}
+
+.info-block {
+  box-shadow: 0 3px 5px #4f5f6f;
+  border-radius: 5px;
+  font-family: 'Black Ops One', cursive;
+  margin-bottom: 10px;
+
+}
+
+.warn-head {
+  text-align: center;
+  text-transform: uppercase;
+  color: orange;
+  text-shadow: 0 2px 5px black;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.warn-subhead {
+  text-align: center;
+  text-transform: uppercase;
+  color: orange;
+  text-shadow: 0 2px 5px black;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+.warn-subhead span {
+  color: forestgreen;
+}
+
+.warn-wrap {
+  background: #d7dde4;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.img-wrap {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}

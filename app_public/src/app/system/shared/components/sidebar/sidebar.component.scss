@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One');
+
+.logoImg {
+  height: 60px;
+  width: auto;
+  transform: translate(-30px, -27px);
+}
+
+.brand {
+  font-family: 'Monoton', cursive;
+  font-size: 1.3rem;
+  color: red;
+}
+
+span {
+  color: orange;
+}
+
+a {
+  font-family: 'Black Ops One', cursive;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+a i {
+  color: orange;
+  font-size: 1.2rem;
+}
+
+li.active  {
+  i {
+    color: red;
+    font-size: 20px;
+  }
+}
+

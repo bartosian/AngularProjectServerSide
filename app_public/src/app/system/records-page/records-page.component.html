@@ -1,0 +1,32 @@
+<div class="title-block">
+  <h3 class="title">
+    Records page <span class="sparkline bar"></span>
+  </h3>
+</div>
+
+<section class="section text-center" *ngIf="!isLoaded">
+  <app-loader></app-loader>
+</section>
+<div *ngIf="!categories.length">
+<div class="col-12 warn-wrap" *ngIf="isLoaded">
+  <h1 class="warn-head"><i class="fa fa-exclamation-circle exclam"></i>To start work you need to add several categories and their limits. Use <span>'income'</span> event to replenish your balance.</h1>
+</div>
+</div>
+<section class="section" *ngIf="isLoaded">
+  <div class="row">
+    <div class="col-md-6">
+      <app-add-event [categories]="categories"></app-add-event>
+    </div>
+    <div class="col-md-6">
+      <app-edit-category
+        [categories]="categories"
+        (onCategoryEdit)="categoryWasEdited($event)"
+      ></app-edit-category>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <app-add-category (onCategoryAdd)="newCategoryAdded($event)"></app-add-category>
+    </div>
+  </div>
+</section>

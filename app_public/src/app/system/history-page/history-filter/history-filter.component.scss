@@ -1,0 +1,76 @@
+.modal.in {
+  display: block;
+}
+
+.modal-header  {
+  height: 100%;
+  text-align: center;
+  padding: 8px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #4f5f6f;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-family: 'Black Ops One', cursive;
+  text-shadow: 0 0 1px black;
+}
+
+
+.modal-content {
+  border-radius: 10px;
+  background: #eff3f6;
+}
+
+span.close-btn, button.close {
+  color: orange;
+  opacity: 1;
+
+  &:hover {
+    color: white;
+  }
+}
+
+button.close:hover,
+button.close:focus,
+button.close:active {
+  outline: none;
+}
+
+.modal-body {
+  background: #eff3f6;
+}
+
+.control-label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: orange;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  text-shadow: 0 0 3px black;
+}
+
+.control-label i {
+  margin-right: 10px;
+  color: #52bcd3;
+  text-shadow: none;
+}
+
+#period {
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+#period > option {
+  height: 25px;
+}
+
+.check-label {
+  text-transform: uppercase;
+  text-shadow: 0 1px 1px white;
+  font-weight: bolder;
+}

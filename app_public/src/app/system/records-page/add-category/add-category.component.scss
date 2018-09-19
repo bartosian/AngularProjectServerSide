@@ -1,0 +1,32 @@
+.control-label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: orange;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  text-shadow: 0 0 3px black;
+}
+
+.card {
+  box-shadow: 0 5px 10px #52bcd3;
+  border-radius: 10px;
+}
+
+.card-header  {
+  background: #4f5f6f !important;
+  height: 100%;
+  text-align: center;
+  padding: 8px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #4f5f6f;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-family: 'Black Ops One', cursive;
+  text-shadow: 0 0 1px black;
+}
+
+.card-header h3.title {
+  color: white !important;
+}

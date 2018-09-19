@@ -1,0 +1,26 @@
+.warn-head {
+  text-align: center;
+  text-transform: uppercase;
+  color: orange;
+  text-shadow: 0 2px 5px black;
+  letter-spacing: 5px;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.warn-head span {
+  color: forestgreen;
+}
+
+.warn-wrap {
+  background: #d7dde4;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.exclam {
+  color: red;
+  margin-right: 5px;
+  font-size: 30px;
+}

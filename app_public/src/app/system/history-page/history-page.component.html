@@ -1,0 +1,40 @@
+<div class="title-block">
+  <h3 class="title">
+    History page <span class="sparkline bar"></span>
+  </h3>
+  <div class="filter-block pull-right">
+    <button class="btn-sm btn btn-primary-outline" (click)="openFilter()">
+      <i class="fa fa-filter"></i>
+    </button>
+  </div>
+</div>
+
+<div *ngIf="!isLoaded" class="text-center"><app-loader></app-loader></div>
+<div *ngIf="isLoaded">
+  <div *ngIf="events.length">
+    <app-history-chart [data]="chartData" *ngIf="hasOutcomeEvent()"></app-history-chart>
+  </div>
+  <app-history-events
+    [categories]="categories"
+    [events]="filteredEvents"
+    *ngIf="events.length"
+  ></app-history-events>
+  <div *ngIf="isFilterVisible">
+    <app-history-filter
+      (onFilterApply)="onFilterApply($event)"
+      (onFilterCancel)="onFilterCancel()"
+      [categories]="categories"
+      *ngIf="events.length"
+    ></app-history-filter>
+  </div>
+</div>
+<div class="row" *ngIf="!events.length">
+  <div class="col-12 warn-wrap" *ngIf="isLoaded">
+    <h1 class="warn-head">You don't have history yet.</h1>
+    <h2 class="warn-subhead">Start with balance in <span>"Record page"</span>.</h2>
+  </div>
+  <div class="col-12 img-wrap">
+    <img src="../../../assets/images/bank.png" alt="PiggyBank">
+  </div>
+</div>
+

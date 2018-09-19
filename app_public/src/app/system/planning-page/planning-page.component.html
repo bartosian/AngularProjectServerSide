@@ -1,0 +1,53 @@
+<div class="title-block">
+  <h3 class="title">
+    Planning page <span class="sparkline bar"></span>
+  </h3>
+</div>
+<section class="section text-center" *ngIf="!isLoaded"><app-loader></app-loader></section>
+
+<section class="section" *ngIf="isLoaded">
+  <div class="row" *ngIf="categories.length">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="card-header card-header-sm bordered">
+          <div class="header-block">
+            <h3 class="title">Costs</h3>
+          </div>
+          <h5 class="planning-expenses pull-right">
+            Balance:  <span class="text-success">{{bill.value | number:'1.2'}} EUR</span>
+          </h5>
+        </div>
+        <div class="card-block">
+
+          <div class="row" *ngFor="let c of categories">
+            <div class="col-xs-6 progress-wrap">
+              <div class="n-progress">
+                <div class="progress-bar {{getCatColorClass(c)}}" [ngStyle]="{width: getCatPercent(c)}">
+                </div>
+              </div>
+              <span id="progress-name">{{c.name}}</span>
+            </div>
+            <div class="col-xs-6 info-block">
+              <p>
+                <span class="text-{{getCatColorClass(c)}}">{{ getCategoryCost(c) | number:'1.2' }}</span>
+                from
+                <span class="text-primary">{{ c.capacity | number:'1.2' }}</span>
+                |
+                left <span class="text-{{getCatColorClass(c)}}">{{ c.capacity - getCategoryCost(c) | number:'1.2' }}</span> (EUR)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="row" *ngIf="!categories.length">
+  <div class="col-12 warn-wrap" *ngIf="isLoaded">
+    <h1 class="warn-head">You don't have plans yet.</h1>
+    <h2 class="warn-subhead">Start with adding categories in <span>"Record page"</span>.</h2>
+  </div>
+  <div class="col-12 img-wrap">
+    <img src="../../../assets/images/bank.png" alt="PiggyBank">
+  </div>
+</div>

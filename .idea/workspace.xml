@@ -2,8 +2,137 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cf4629c-5bca-43b8-88dd-d68e2be7998f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app_public/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/e2e/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/e2e/src/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/e2e/tsconfig.e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/auth/auth-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/auth/auth.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/auth/auth.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/auth/auth.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/auth/auth.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/auth/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/auth/login/login.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/auth/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/auth/registration/registration.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/auth/registration/registration.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/auth/registration/registration.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/shared/animations/fade.animation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/shared/components/loader/loader.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/shared/components/loader/loader.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/shared/components/not-found/not-found.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/shared/components/not-found/not-found.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/shared/components/not-found/not-found.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/shared/core/base-api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/shared/interceptors/api.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/shared/models/formData.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/shared/models/message.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/shared/models/user.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/shared/services/auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/shared/services/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/shared/services/users.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/shared/shared.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-card/bill-card.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-card/bill-card.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-card/bill-card.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-page.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/chart/chart.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/chart/chart.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/chart/chart.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-chart/history-chart.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-chart/history-chart.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-chart/history-chart.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-detail/history-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-detail/history-detail.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-detail/history-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-events/history-events.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-events/history-events.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-events/history-events.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-filter/history-filter.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-filter/history-filter.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-filter/history-filter.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-page.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/planning-page/planning-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/planning-page/planning-page.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/planning-page/planning-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/records-page/add-category/add-category.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/records-page/add-category/add-category.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/records-page/add-category/add-category.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/records-page/add-event/add-event.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/records-page/add-event/add-event.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/records-page/add-event/add-event.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/records-page/edit-category/edit-category.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/records-page/edit-category/edit-category.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/records-page/edit-category/edit-category.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/records-page/records-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/records-page/records-page.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/records-page/records-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/shared/components/header/header.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/shared/components/header/header.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/shared/components/header/header.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/shared/components/sidebar/sidebar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/shared/components/sidebar/sidebar.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/shared/components/sidebar/sidebar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/shared/directives/dropdown.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/shared/models/bill.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/shared/models/category.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/shared/models/event.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/shared/pipes/filter.pipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/shared/pipes/moment.pipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/shared/services/bill.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/shared/services/categories.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/shared/services/events.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/system-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/system.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/system.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/app/system/system.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/assets/images/bank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/assets/images/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/assets/images/logoApp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/assets/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/assets/vendor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/browserslist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/src/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_public/tslint.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/categoryRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/categoryRoutes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,17 +145,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="categoryRoutes.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/categoryRoutes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,6 +165,9 @@
         <option value="$PROJECT_DIR$/routes/eventRoutes.js" />
         <option value="$PROJECT_DIR$/routes/authRoutes.js" />
         <option value="$PROJECT_DIR$/routes/categoryRoutes.js" />
+        <option value="$PROJECT_DIR$/app_public/src/app/auth/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/app_public/angular.json" />
+        <option value="$PROJECT_DIR$/app-public/angular.json" />
       </list>
     </option>
   </component>
@@ -58,14 +180,16 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/app_public/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
+      <path value="$PROJECT_DIR$/app_public/package.json" />
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="948" />
@@ -83,11 +207,6 @@
               <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
               <item name="AngularProjectMEAN" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AngularProjectMEAN" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -96,12 +215,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="webfont.svg&#9;FILE&#9;file:///Users/kirylbartashevich/Desktop/LABS/AngularProjectMEAN/app-public/src/assets/fonts/fontawesome-webfont.svg" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/app-public/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app_public/src/assets" />
+      <recent name="$PROJECT_DIR$/app_public" />
+      <recent name="$PROJECT_DIR$/app-public" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -125,35 +254,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537102002945</updated>
-      <workItem from="1537102004420" duration="46860000" />
+      <workItem from="1537102004420" duration="51457000" />
+      <workItem from="1537372863229" duration="349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46860000" />
+    <option name="totallyTimeSpent" value="51806000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="948" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="948" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32971668" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info id="npm" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32902467" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.48178613" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,20 +296,6 @@
     <entry file="file://$PROJECT_DIR$/bin/www">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-256" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="6" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/bill.js">
@@ -245,19 +361,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/categoryRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/authRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="955">
+        <state relative-caret-position="269">
           <caret line="121" column="12" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/categoryRoutes.js">
+    <entry file="file://$PROJECT_DIR$/app_public/package.json" />
+    <entry file="file://$PROJECT_DIR$/app_public/package-lock.json" />
+    <entry file="file://$PROJECT_DIR$/app_public/angular.json" />
+    <entry file="file://$PROJECT_DIR$/app-public/package.json" />
+    <entry file="file://$PROJECT_DIR$/app-public/.editorconfig" />
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68266" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.vscode/launch.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.vscode/settings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app-public/src/assets/fonts/fontawesome-webfont.svg" />
+    <entry file="file://$PROJECT_DIR$/app-public/angular.json" />
+    <entry file="file://$PROJECT_DIR$/app-public/src/styles.scss" />
+    <entry file="file://$PROJECT_DIR$/app-public/src/test.ts" />
+    <entry file="file://$PROJECT_DIR$/app-public/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/app-public/src/assets/vendor.css" />
+    <entry file="file://$PROJECT_DIR$/app-public/node_modules/postcss-loader/lib/index.js" />
+    <entry file="file://$PROJECT_DIR$/app-public/node_modules/postcss-loader/lib/Error.js" />
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/assets/vendor.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
