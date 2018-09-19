@@ -12,7 +12,7 @@ function authToken(req, res, next) {
     }
 
     try {
-        const decObject = JWT.verify(token, process.env.JWTKEY);
+        const decObject = JWT.verify(token, "MyBudgetKetApp");
 
         req.user = decObject;
         next();
