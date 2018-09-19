@@ -7,6 +7,10 @@
     "dev": "DEBUG=angularprojectmean:* nodemon ./bin/www",
     "dev-windows": "nodemon ./bin/www"
   },
+  "engines": {
+    "node": "^10.7.0",
+    "npm": "^6.3.0"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",

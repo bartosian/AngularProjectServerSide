@@ -10,7 +10,7 @@ const path         = require('path');
 
 
 mongoose
-  .connect('mongodb://localhost/angularprojectmean', {useNewUrlParser: true})
+  .connect(process.env.MLABURI, {useNewUrlParser: true})
   .then(x => {
     console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`)
   })
@@ -60,7 +60,7 @@ app.use('/api', event);
 const category = require('./routes/categoryRoutes');
 app.use('/api', category);
 
-app.get(/(\/about)|(\/location\/[a-z0-9]{24})/, function(req, res, next) {
+app.get('*', function(req, res, next) {
     res.sendFile(path.join(__dirname, 'app_public', 'build', 'index.html'));
 });
 
