@@ -78,14 +78,9 @@ router.post('/categories', authToken, async function(req, res, next) {
         user.categories.push(newCategory);
         await user.save();
 
-        const category = {
-            name,
-            capacity
-        };
-
         return res.status(201)
             .json(
-                category
+                newCategory
             );
     } catch(ex) {
         return next(ex);
