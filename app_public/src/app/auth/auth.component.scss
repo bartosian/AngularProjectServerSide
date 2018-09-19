@@ -4,6 +4,8 @@
 #logoImg {
   height: 70px;
   width: auto;
+  -webkit-transform: translate(-30px, -25px);
+  -ms-transform: translate(-30px, -25px);
   transform: translate(-30px, -25px);
 }
 
@@ -21,6 +23,7 @@ span {
 }
 
 .card {
+  -webkit-box-shadow: 0 10px 30px black;
   box-shadow: 0 10px 30px black;
   font-family: 'Black Ops One', cursive;
 }

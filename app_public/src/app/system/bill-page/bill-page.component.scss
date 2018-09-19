@@ -1,6 +1,7 @@
 
-
 .refresh-block {
+  -webkit-transform: translateY(-25px);
+  -ms-transform: translateY(-25px);
   transform: translateY(-25px);
 }
 
@@ -21,5 +22,3 @@
   outline: none;
   border: none;
 }
-
-

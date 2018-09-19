@@ -1,4 +1,6 @@
 .filter-block {
+  -webkit-transform: translateY(-25px);
+  -ms-transform: translateY(-25px);
   transform: translateY(-25px);
 }
 
@@ -52,6 +54,10 @@
 
 .img-wrap {
   padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }

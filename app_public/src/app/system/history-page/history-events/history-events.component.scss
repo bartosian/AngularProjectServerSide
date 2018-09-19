@@ -4,6 +4,7 @@
   text-align: center;
   padding: 8px 20px;
   border-radius: 10px;
+  -webkit-box-shadow: 0 10px 15px #4f5f6f;
   box-shadow: 0 10px 15px #4f5f6f;
   color: white;
   text-transform: uppercase;
@@ -19,6 +20,7 @@
   height: 50px;
   text-align: center;
   padding: 8px 20px;
+  -webkit-box-shadow: 0 10px 15px #4f5f6f;
   box-shadow: 0 10px 15px #4f5f6f;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -38,6 +40,7 @@ table {
 .type-lbl {
   padding: 8px;
   min-width: 100px;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: inline-block;
 }
