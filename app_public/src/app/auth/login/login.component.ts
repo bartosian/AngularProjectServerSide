@@ -20,6 +20,7 @@ export class LoginComponent implements OnInit {
 
   form: FormGroup;
   message: Message;
+  requestSent = false;
 
   constructor(private usersService: UsersService,
               private authService: AuthService,
@@ -69,6 +70,7 @@ export class LoginComponent implements OnInit {
   }
 
   onSubmit() {
+    this.requestSent = true;
     const { email, password } = this.form.value;
     const formData = { email, password };
 
@@ -80,13 +82,14 @@ export class LoginComponent implements OnInit {
             window.localStorage.setItem('user', JSON.stringify(userInfo));
             window.localStorage.setItem('token', authToken);
             this.authService.login();
-
+            this.requestSent = false;
             this.router.navigate(['/system', 'bill']);
         } else {
           this.showMessage({
             text: res.errorMessage,
             type: 'danger'
           });
+          this.requestSent = false;
         }
       });
   }

@@ -3,44 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1cf4629c-5bca-43b8-88dd-d68e2be7998f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/3rdpartylicenses.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/4.296bc29a1b2bf5173ead.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/images/bank.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/images/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/images/logoApp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/vendor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.139e74e298bca37a25d2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.706450d7bba6374ca02f.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.97493d3f11c0a3bd5cbd.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.d9ee23d59d0e0e727b51.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.f7c2b4b747b1a225eb8d.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/main.8d930d3120f645d1bde7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/polyfills.f6ae3e8b63939c618130.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/runtime.91ab9d6b73b9e7fe699d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/scripts.7f8b770a5f080be06e69.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/styles.a933221f600c83500c90.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/app/auth/auth.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/auth/auth.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-page.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-page.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/app/system/bill-page/chart/chart.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/chart/chart.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-chart/history-chart.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-chart/history-chart.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-detail/history-detail.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-detail/history-detail.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-events/history-events.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-events/history-events.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-filter/history-filter.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-filter/history-filter.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-page.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/system/history-page/history-page.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/app/system/planning-page/planning-page.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/system/planning-page/planning-page.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/app/system/records-page/add-category/add-category.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/system/records-page/add-category/add-category.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/app/system/records-page/add-event/add-event.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/system/records-page/add-event/add-event.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/app/system/records-page/edit-category/edit-category.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/system/records-page/edit-category/edit-category.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/src/app/auth/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/auth/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/src/app/auth/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/auth/login/login.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,11 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="edit-category.component.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app_public/src/app/system/records-page/edit-category/edit-category.component.scss">
+      <file leaf-file-name="login.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/login/login.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
-              <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+            <state relative-caret-position="253">
+              <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/login/login.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="88" column="35" lean-forward="true" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -78,7 +51,6 @@
         <option value="$PROJECT_DIR$/routes/eventRoutes.js" />
         <option value="$PROJECT_DIR$/routes/authRoutes.js" />
         <option value="$PROJECT_DIR$/routes/categoryRoutes.js" />
-        <option value="$PROJECT_DIR$/app_public/src/app/auth/login/login.component.ts" />
         <option value="$PROJECT_DIR$/app_public/angular.json" />
         <option value="$PROJECT_DIR$/app-public/angular.json" />
         <option value="$PROJECT_DIR$/.env" />
@@ -110,6 +82,8 @@
         <option value="$PROJECT_DIR$/app_public/src/app/system/records-page/add-category/add-category.component.scss" />
         <option value="$PROJECT_DIR$/app_public/src/app/system/records-page/add-event/add-event.component.scss" />
         <option value="$PROJECT_DIR$/app_public/src/app/system/records-page/edit-category/edit-category.component.scss" />
+        <option value="$PROJECT_DIR$/app_public/src/app/auth/login/login.component.html" />
+        <option value="$PROJECT_DIR$/app_public/src/app/auth/login/login.component.ts" />
       </list>
     </option>
   </component>
@@ -173,7 +147,7 @@
               <item name="app_public" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
@@ -181,18 +155,8 @@
               <item name="app_public" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="records-page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AngularProjectMEAN" type="462c0819:PsiDirectoryNode" />
-              <item name="app_public" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="records-page" type="462c0819:PsiDirectoryNode" />
-              <item name="edit-category" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,12 +206,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537102002945</updated>
       <workItem from="1537102004420" duration="51457000" />
-      <workItem from="1537372863229" duration="14272000" />
+      <workItem from="1537372863229" duration="15116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65729000" />
+    <option name="totallyTimeSpent" value="66573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -281,9 +245,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.vscode/settings.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app-public/src/assets/fonts/fontawesome-webfont.svg" />
     <entry file="file://$PROJECT_DIR$/app-public/angular.json" />
     <entry file="file://$PROJECT_DIR$/app-public/src/styles.scss" />
@@ -292,9 +253,6 @@
     <entry file="file://$PROJECT_DIR$/app-public/src/assets/vendor.css" />
     <entry file="file://$PROJECT_DIR$/app-public/node_modules/postcss-loader/lib/index.js" />
     <entry file="file://$PROJECT_DIR$/app-public/node_modules/postcss-loader/lib/Error.js" />
-    <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/login/login.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/assets/vendor.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -575,6 +533,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
           <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="88" column="35" lean-forward="true" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
         </state>
       </provider>
     </entry>
