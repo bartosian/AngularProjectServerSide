@@ -32,7 +32,7 @@ const userSchema = new Schema({
 });
 
 userSchema.methods.generateToken = function() {
-  const token = JWT.sign({ _id: this._id, name: this.name }, process.env.JWTKEY);
+  const token = JWT.sign({ _id: this._id, name: this.name }, "MyBudgetKetApp");
 
   return token;
 };
