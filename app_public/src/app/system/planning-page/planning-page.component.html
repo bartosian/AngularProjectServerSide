@@ -42,12 +42,14 @@
     </div>
   </div>
 </section>
-<div class="row" *ngIf="!categories.length">
-  <div class="col-12 warn-wrap" *ngIf="isLoaded">
-    <h1 class="warn-head">You don't have plans yet.</h1>
-    <h2 class="warn-subhead">Start with adding categories in <span>"Record page"</span>.</h2>
-  </div>
-  <div class="col-12 img-wrap">
-    <img src="../../../assets/images/bank.png" alt="PiggyBank">
+<div *ngIf="isLoaded">
+  <div class="row" *ngIf="!categories.length">
+    <div class="col-12 warn-wrap" *ngIf="isLoaded">
+      <h1 class="warn-head">You don't have plans yet.</h1>
+      <h2 class="warn-subhead">Start with adding categories in <span>"Record page"</span>.</h2>
+    </div>
+    <div class="col-12 img-wrap">
+      <img src="../../../assets/images/bank.png" alt="PiggyBank">
+    </div>
   </div>
 </div>
