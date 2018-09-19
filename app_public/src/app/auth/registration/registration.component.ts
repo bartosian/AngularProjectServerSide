@@ -14,6 +14,7 @@ import { Title } from '@angular/platform-browser';
 export class RegistrationComponent implements OnInit {
 
   form: FormGroup;
+  requestSent = false;
 
   constructor(private usersService: UsersService,
               private router: Router,
@@ -32,6 +33,7 @@ export class RegistrationComponent implements OnInit {
   }
 
   onSubmit() {
+    this.requestSent = true;
     const {email, password, name} = this.form.value;
     const user = new User(email, password, name);
     this.usersService.createNewUser(user)
@@ -41,7 +43,11 @@ export class RegistrationComponent implements OnInit {
             nowCanLogin: true
           }
         });
-      });
+        this.requestSent = false;
+      },
+        (err) => {
+          this.requestSent = false;
+        });
   }
 
   forbiddenEmails(control: FormControl): Promise<any> {

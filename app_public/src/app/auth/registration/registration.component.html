@@ -82,7 +82,7 @@
     <button
       type="submit"
       class="btn btn-block btn-primary"
-      [disabled]="form.invalid || form.get('agree').value === false"
+      [disabled]="form.invalid || (form.get('agree').value === false) || requestSent"
     >
       Signup
     </button>
