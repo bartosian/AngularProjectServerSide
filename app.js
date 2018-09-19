@@ -10,7 +10,7 @@ const path         = require('path');
 
 
 mongoose
-  .connect("mongodb://bart:bart123456789@ds163382.mlab.com:63382/mybudget", {useNewUrlParser: true})
+  .connect(process.env.MLAB_URI, {useNewUrlParser: true})
   .then(x => {
     console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`)
   })
