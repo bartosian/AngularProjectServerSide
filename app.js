@@ -40,7 +40,7 @@ app.use(require('node-sass-middleware')({
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
-
+app.use(express.static(path.join(__dirname, 'app_public', 'build')));
 app.use('/api', function(req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE, HEAD');
@@ -59,6 +59,10 @@ app.use('/api', event);
 
 const category = require('./routes/categoryRoutes');
 app.use('/api', category);
+
+app.get(/(\/about)|(\/location\/[a-z0-9]{24})/, function(req, res, next) {
+    res.sendFile(path.join(__dirname, 'app_public', 'build', 'index.html'));
+});
 
 
 module.exports = app;
