@@ -3,8 +3,32 @@
   <component name="ChangeListManager">
     <list default="true" id="1cf4629c-5bca-43b8-88dd-d68e2be7998f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/3rdpartylicenses.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/4.a5d6c9c5e502aa5f711b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/images/bank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/images/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/images/logoApp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/vendor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.139e74e298bca37a25d2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.706450d7bba6374ca02f.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.97493d3f11c0a3bd5cbd.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.d9ee23d59d0e0e727b51.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.f7c2b4b747b1a225eb8d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/main.586a44f12332b8737b66.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/polyfills.f6ae3e8b63939c618130.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/runtime.bc5363859fd24b43e143.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/scripts.7f8b770a5f080be06e69.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/styles.a933221f600c83500c90.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/src/app/shared/core/base-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/shared/core/base-api.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,29 +42,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="base-api.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app_public/src/app/shared/core/base-api.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="69" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="90">
+              <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,9 +78,9 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/bin/www" />
-        <option value="$PROJECT_DIR$/app_public/src/app/shared/core/base-api.ts" />
         <option value="$PROJECT_DIR$/app_public/src/app/auth/auth.component.scss" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/app_public/src/app/shared/core/base-api.ts" />
       </list>
     </option>
   </component>
@@ -110,6 +119,41 @@
             <path>
               <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
               <item name="AngularProjectMEAN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularProjectMEAN" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularProjectMEAN" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularProjectMEAN" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularProjectMEAN" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularProjectMEAN" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -159,12 +203,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537102002945</updated>
       <workItem from="1537102004420" duration="51457000" />
-      <workItem from="1537372863229" duration="5973000" />
+      <workItem from="1537372863229" duration="6374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57430000" />
+    <option name="totallyTimeSpent" value="57831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -179,7 +223,7 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2467685" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3478261" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -330,16 +374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_public/src/app/shared/core/base-api.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/login/login.component.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -357,10 +391,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="240">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -371,10 +405,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="165">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/shared/core/base-api.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="60" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
