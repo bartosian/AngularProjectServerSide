@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cf4629c-5bca-43b8-88dd-d68e2be7998f" name="Default" comment="" />
+    <list default="true" id="1cf4629c-5bca-43b8-88dd-d68e2be7998f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/3rdpartylicenses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/3rdpartylicenses.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/4.9bd813895b0d9764c62a.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/4.9bd813895b0d9764c62a.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/images/bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/images/bank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/images/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/images/loader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/images/logoApp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/images/logoApp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/assets/vendor.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/vendor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/build/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.139e74e298bca37a25d2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/fontawesome-webfont.139e74e298bca37a25d2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.706450d7bba6374ca02f.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/build/fontawesome-webfont.706450d7bba6374ca02f.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.97493d3f11c0a3bd5cbd.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/build/fontawesome-webfont.97493d3f11c0a3bd5cbd.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.d9ee23d59d0e0e727b51.woff" beforeDir="false" afterPath="$PROJECT_DIR$/build/fontawesome-webfont.d9ee23d59d0e0e727b51.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.f7c2b4b747b1a225eb8d.eot" beforeDir="false" afterPath="$PROJECT_DIR$/build/fontawesome-webfont.f7c2b4b747b1a225eb8d.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/main.3054ad5e96c44c1ea96e.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/main.3054ad5e96c44c1ea96e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/polyfills.f6ae3e8b63939c618130.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/polyfills.f6ae3e8b63939c618130.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/runtime.a6a99202621652967874.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/runtime.a6a99202621652967874.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/scripts.7f8b770a5f080be06e69.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts.7f8b770a5f080be06e69.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/build/styles.028fe9c2c55b9a232f93.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/styles.028fe9c2c55b9a232f93.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-page.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-page.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_public/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/styles.scss" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,7 +45,26 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="currency-card.component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="currency-card.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,9 +94,7 @@
         <option value="$PROJECT_DIR$/app_public/src/app/shared/core/base-api.ts" />
         <option value="$PROJECT_DIR$/app_public/src/app/auth/auth.component.html" />
         <option value="$PROJECT_DIR$/app_public/src/app/auth/registration/registration.component.scss" />
-        <option value="$PROJECT_DIR$/app_public/src/styles.scss" />
         <option value="$PROJECT_DIR$/app_public/src/app/auth/auth.component.scss" />
-        <option value="$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-page.component.scss" />
         <option value="$PROJECT_DIR$/app_public/src/app/system/bill-page/chart/chart.component.scss" />
         <option value="$PROJECT_DIR$/app_public/src/app/system/history-page/history-page.component.scss" />
         <option value="$PROJECT_DIR$/app_public/src/app/system/history-page/history-chart/history-chart.component.scss" />
@@ -63,6 +112,11 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app_public/src/app/system/history-page/history-detail/history-detail.component.html" />
         <option value="$PROJECT_DIR$/app_public/src/app/system/history-page/history-filter/history-filter.component.scss" />
+        <option value="$PROJECT_DIR$/app_public/src/index.html" />
+        <option value="$PROJECT_DIR$/app_public/src/styles.scss" />
+        <option value="$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-page.component.scss" />
+        <option value="$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.scss" />
+        <option value="$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.html" />
       </list>
     </option>
   </component>
@@ -102,6 +156,51 @@
               <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
               <item name="AngularProjectMEAN" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularProjectMEAN" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularProjectMEAN" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularProjectMEAN" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularProjectMEAN" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularProjectMEAN" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="bill-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AngularProjectMEAN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AngularProjectMEAN" type="462c0819:PsiDirectoryNode" />
+              <item name="app_public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="bill-page" type="462c0819:PsiDirectoryNode" />
+              <item name="currency-card" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -121,6 +220,9 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/app_public/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app_public/src/assets" />
       <recent name="$PROJECT_DIR$/app_public" />
@@ -153,34 +255,38 @@
       <workItem from="1537372863229" duration="17053000" />
       <workItem from="1537404188902" duration="616000" />
       <workItem from="1537447875505" duration="2598000" />
+      <workItem from="1537465554181" duration="658000" />
+      <workItem from="1537475199478" duration="602000" />
+      <workItem from="1537475830298" duration="191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71724000" />
+    <option name="totallyTimeSpent" value="73175000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32971668" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3478261" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3478261" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32902467" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,48 +296,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/records-page/records-page.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/records-page/add-category/add-category.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/records-page/add-event/add-event.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/records-page/edit-category/edit-category.component.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/registration/registration.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="84" column="84" selection-start-line="84" selection-start-column="84" selection-end-line="84" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/authRoutes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1815">
-          <caret line="121" column="12" selection-start-line="121" selection-start-column="12" selection-end-line="121" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -243,13 +307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-page.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="13" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -269,24 +326,8 @@
     <entry file="file://$PROJECT_DIR$/app_public/angular.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_public/src/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_public/src/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -295,68 +336,22 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/auth.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_public/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/auth.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/auth-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/auth.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/login/login.component.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -399,13 +394,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/shared/interceptors/api.interceptor.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/shared/models/formData.model.ts">
       <provider selected="true" editor-type-id="text-editor" />
@@ -417,57 +406,24 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/shared/services/auth.guard.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/shared/services/auth.service.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/shared/services/users.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_public/src/app/shared/shared.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-page.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-card/bill-card.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.html">
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/shared/shared.module.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-page.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-card/bill-card.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/chart/chart.component.ts">
@@ -475,31 +431,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/system/history-page/history-page.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-307">
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-307" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/system/system.component.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/system/system.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/system-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/angular 2.json" />
+    <entry file="file://$PROJECT_DIR$/app_public/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/.editorconfig 2" />
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/auth/auth.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/system-routing.module.ts">
+    <entry file="file://$PROJECT_DIR$/app_public/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-page.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-page.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
         </state>
       </provider>
     </entry>

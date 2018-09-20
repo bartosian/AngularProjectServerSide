@@ -3,6 +3,10 @@
   -webkit-transform: translateY(-25px);
   -ms-transform: translateY(-25px);
   transform: translateY(-25px);
+
+  @media (max-width: 500px) {
+    display: none;
+  }
 }
 
 .refresh-block .btn {

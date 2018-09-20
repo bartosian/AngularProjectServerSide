@@ -16,3 +16,9 @@
    color: red;
    text-shadow: 0 0 1px black;
  }
+
+ @media (max-width: 600px) {
+   .cur-date {
+     font-size: 12px;
+   }
+ }
