@@ -7,6 +7,7 @@
   text-align: center;
   padding: 8px 20px;
   border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px #4f5f6f;
   box-shadow: 0 0 10px #4f5f6f;
   color: white;
   text-transform: uppercase;
@@ -73,4 +74,8 @@ button.close:active {
   text-transform: uppercase;
   text-shadow: 0 1px 1px white;
   font-weight: bolder;
+}
+
+.checkbox {
+  display: none;
 }
