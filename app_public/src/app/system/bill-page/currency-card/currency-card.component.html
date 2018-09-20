@@ -17,7 +17,7 @@
           <tr>
             <td class="cur">EUR</td>
             <td>1</td>
-            <td>{{ currency.date | appMoment:'YYYY-MM-DD' }}</td>
+            <td class="cur-date">{{ currency.date | appMoment:'YYYY-MM-DD' }}</td>
           </tr>
           <tr *ngFor="let c of currencies">
             <td class="cur">{{ c }}</td>

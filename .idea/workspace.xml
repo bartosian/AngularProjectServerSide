@@ -3,36 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1cf4629c-5bca-43b8-88dd-d68e2be7998f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/3rdpartylicenses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/3rdpartylicenses.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/4.9bd813895b0d9764c62a.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/4.9bd813895b0d9764c62a.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/images/bank.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/images/bank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/images/loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/images/loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/images/logoApp.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/images/logoApp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/assets/vendor.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/vendor.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/build/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.139e74e298bca37a25d2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/fontawesome-webfont.139e74e298bca37a25d2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.706450d7bba6374ca02f.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/build/fontawesome-webfont.706450d7bba6374ca02f.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.97493d3f11c0a3bd5cbd.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/build/fontawesome-webfont.97493d3f11c0a3bd5cbd.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.d9ee23d59d0e0e727b51.woff" beforeDir="false" afterPath="$PROJECT_DIR$/build/fontawesome-webfont.d9ee23d59d0e0e727b51.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/fontawesome-webfont.f7c2b4b747b1a225eb8d.eot" beforeDir="false" afterPath="$PROJECT_DIR$/build/fontawesome-webfont.f7c2b4b747b1a225eb8d.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/main.3054ad5e96c44c1ea96e.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/main.3054ad5e96c44c1ea96e.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/polyfills.f6ae3e8b63939c618130.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/polyfills.f6ae3e8b63939c618130.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/runtime.a6a99202621652967874.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/runtime.a6a99202621652967874.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/scripts.7f8b770a5f080be06e69.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts.7f8b770a5f080be06e69.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/build/styles.028fe9c2c55b9a232f93.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/styles.028fe9c2c55b9a232f93.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-page.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/bill-page.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_public/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app_public/src/styles.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,8 +20,8 @@
       <file leaf-file-name="currency-card.component.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="300">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -58,8 +29,8 @@
       <file leaf-file-name="currency-card.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            <state relative-caret-position="245">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -257,12 +228,12 @@
       <workItem from="1537447875505" duration="2598000" />
       <workItem from="1537465554181" duration="658000" />
       <workItem from="1537475199478" duration="602000" />
-      <workItem from="1537475830298" duration="191000" />
+      <workItem from="1537475830298" duration="638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73175000" />
+    <option name="totallyTimeSpent" value="73622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="948" extended-state="0" />
@@ -491,15 +462,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="300">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app_public/src/app/system/bill-page/currency-card/currency-card.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+        <state relative-caret-position="245">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
         </state>
       </provider>
     </entry>
